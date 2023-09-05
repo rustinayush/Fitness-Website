@@ -77,7 +77,7 @@ const Bottom = () => {
 
             <div>
 
-              <img src={item.image} alt={`Image ${item.id}`} />
+              <img src={item.image} alt={` ${item.id}`} />
               <div className='text-part'>
                 <div><p style={{ textDecoration: "underline", fontSize: "10px", fontWeight: "bold" }}>{item.topic}</p></div>
                 <div><h3>{item.title}</h3></div>

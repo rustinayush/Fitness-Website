@@ -8,7 +8,7 @@ const Division2 = () => {
     <div className="section2-container">
 
       <div className="division2-image">
-        <img src={image} alt="Image Alt Text 1" />
+        <img src={image} alt="Alt Text 1" />
 
       </div>
       <div className="division2-text">

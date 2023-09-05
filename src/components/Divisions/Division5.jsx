@@ -18,7 +18,7 @@ const Division5 = () => {
 
       </div>
       <div className="division1-image">
-        <img src={image} alt="Image Alt Text 1" />
+        <img src={image} alt="Alt Text 1" />
 
       </div>
     </div>
