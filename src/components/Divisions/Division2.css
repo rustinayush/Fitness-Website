@@ -1,0 +1,65 @@
+.division2-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.division2-text {
+  flex: 1;
+  padding: 20px;
+  margin-left: 50px;
+}
+
+.division2-image {
+  flex: 1;
+  text-align: center;
+}
+
+.division2-image img {
+  max-width: 100%;
+  height: auto;
+  max-height: 900px;
+}
+
+/* Add media queries for responsive design */
+@media (max-width: 768px) {
+  .division2-container {
+    flex-direction: column-reverse;
+
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .division2-text p {
+    font-size: 16px; /* Reduce font size for mobile */
+  }
+
+  /* Hide the third <p> tag on mobile */
+  .division2-text p:nth-child(3) {
+    display: none;
+  }
+}
+
+.read-more-button {
+  background-color: #ffcc99;
+  border-radius: 5px;
+  color: #333;
+  border: none;
+  padding: 15px 50px;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.arrow-icon {
+  margin-left: 40px; /* Adjust the margin to control the space between the icon and text */
+  vertical-align: middle; /* Vertically align the icon with the text */
+}
+
+.p-tag {
+  font-size: 30px;
+}
